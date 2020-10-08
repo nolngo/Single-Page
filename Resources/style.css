@@ -35,22 +35,43 @@ div {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-nav ul,li,a{
-    color:gold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0;
-    font-size: 20px;
-}
 main {
     font-size: 20px;
 }
 footer{
-    margin-top: 400px;
+    font-size: 14px;
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 0;
+}
+footer button{
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 3px;
 }
 p1 {
     display: block;
     font-size: 20px;
     font-style: italic;
+}
+button li,a{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
