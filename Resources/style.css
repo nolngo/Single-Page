@@ -3,7 +3,7 @@ html {
     display: block;
     margin-left: 250px;
     margin-right: 250px;
-    background-image: url("../Resources/Images/fancy.PNG");
+    background-image: url("https://raw.githubusercontent.com/nolngo/Single-Page/master/Resources/Images/fancy.png");
     color: gold;
 }
 body {
